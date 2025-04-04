@@ -3,11 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../style.css">
+
+    <link rel="icon" type="image/jpg" href="../../img/nLogo.jpg" sizes="16x16">
         <title>Odin Lasagna Recipe</title>
-        <a href="../../index.html">Home</a>
 </head>
 
-<body>
+<body id="bodySettings">
+
+    <div class="container-fluid" id="headerSettings">
+
+        <div class="btn-group dropright">
+          <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Quick Recipes
+          </button>
+          <div id="dropLink" class="dropdown-menu">
+            <a class="dropText" href="./lasagna.html">Lasagna</a>
+            <br>
+            <a class="dropText" href="../grilled-cheese/grilled-cheese.html">Grilled Cheese</a>
+            <br>
+            <a class="dropText" href="../mac-and-cheese/mAc.html">Mac & Cheese</a>
+          </div>
+        </div>
+    <span class="moveCenter">
+        <a href="../../index.html">
+            <img width="65" height="65" src="../../img/odinHead.svg" alt="The Odin Project Logo">
+        </a>
+      <h1>Odin Recipes</h1>
+    </span>
+  </div>
+
     <h1>Worlds Best Lasagna</h1>
     <br>
         <img width="250" height="250" src="img/lasagna.webp" alt="Plate of Lasagna">
@@ -192,9 +219,17 @@
         </p>
     <br>
         <img width="250" height="250" src="img/finishedproduct.webp" alt="Plate of lasagna">
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
+
 <footer>
-    <h4><a href="lasagna.html">^Back to top^</a></h4>
+    <div id="footerSettings" class="container-fluid"> 
+        <h6 class="moveCenter">Made by: Nayo Ortiz</h6>
+        <button id="dropLink"><a href="lasagna.html">Back to Top</a></button>
+    </div>
 </footer>
 </html>

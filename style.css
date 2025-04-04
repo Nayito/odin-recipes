@@ -1,0 +1,34 @@
+#headerSettings {
+    background-color: black;
+    color: white;
+    padding-block: 6px;
+    text-align: center;
+}
+
+#bodySettings {
+    background-color: darkgray;
+    padding: 0px;
+    text-align: center;
+}
+
+#footerSettings {
+    background-color: black;
+    color: white;
+    padding: 16px;
+}
+
+#dropLink {
+    text-align: center;
+    background-color: darkgray;
+    border-color: black;
+    border-width:2.5px;
+}
+
+.dropText {
+    color: white;
+}
+
+.moveCenter {
+    text-align: center;
+}
+
